@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.container {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+#text {
+  color: #61dafb;
+  animation: colorChange 3s ease infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #61dafb;
+  }
+  25% {
+    color: #f39c12;
+  }
+  50% {
+    color: #e74c3c;
+  }
+  75% {
+    color: #9b59b6;
+  }
+  100% {
+    color: #61dafb;
+  }
+}
